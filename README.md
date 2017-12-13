@@ -4,6 +4,7 @@
 1. [Chapter 1: Sampling and Data](#Chapter1)
 2. [Chapter 2: Descriptive Statistics](#Chapter2)
 3. [Chapter 3: Probability Topics](#Chapter3)
+4. [Chapter 4: Discrete Random Variables](#Chapter4)
 
 ## Chapter 1: Sampling and Data<a name="Chapter1"></a>
 Organizing and summarizing data is called descriptive statistics. Data can be classified in 4 different levels:
@@ -49,3 +50,22 @@ There are also several measures of the spread of the data:
 - Standard deviation: Is the square of the variance, for the sample the formula is ![Sample Standard deviation](images/2.2.png) and for the population is ![Standard deviation](images/2.3.png)
 
 ## Chapter 3: Probability Topics<a name="Chapter3"></a>
+An experiment is a planned operation carried out under controlled conditions, the result of an experiment is called an outcome. A sample space is a set of all possible outcomes, an event is any combination of outcomes. The probability of any outcome is the long-term relative frequency of that outcome, probabilities are between 0 and 1 inclusive.
+An outcome is in the event A OR B if the outcome is in A or is in B or is in both A and B. If A and B are defined on a sample space, then:
+
+- P(A OR B) = P(A) + P(B) − P(A AND B).
+
+An outcome is in the event A AND B if the outcome is in both A and B at the same time. The conditional probability of A given B is written P (A|B) and is calculated with:
+
+- P (A|B) = P(A AND B)/ P(B).
+
+Two events A and B are _independent_ if the knowledge that one occurred does not affect the chance the other occurs. For two independent events at least one of the following is true:
+
+- P(A|B) = P(A)
+- P(B|A) = P(B)
+- P(AANDB)=P(A)·P(B)
+
+A and B are _mutually exclusive_ events if they cannot occur at the same time. This means that A and B do
+not share any outcomes and P(A AND B) = 0.
+
+## Chapter 4: Discrete Random Variables<a name="Chapter4"></a>
