@@ -69,3 +69,27 @@ A and B are _mutually exclusive_ events if they cannot occur at the same time. T
 not share any outcomes and P(A AND B) = 0.
 
 ## Chapter 4: Discrete Random Variables<a name="Chapter4"></a>
+Upper case letters like X or Y denote a random variable. Lower case letters like x or y denote the value of a random variable. If X is a random variable, then X is written in words. and x is given as a number. A discrete probability distribution function has two characteristics: Each probability is between 0 and 1, inclusive and the sum of the probabilities is 1. The mean of X is μ and the expected value of an event is calculated with xP(x).
+
+### Binomial
+A binomial probability function is denoted as X ∼ B (n, p). There is two outcomes, if q and p are these outcomes and n the number of trials, then:
+
+- Mean μ = np
+- Standard deviation σ = √(npq)
+
+### Geometric
+The geometric distribution is denoted as X ∼ G (p). The trials are repeated until the first success and the probability doesn't change after each trial. An example is to get a 4 in the fifth roll of a dice. The calculation is done like this `5/6 . 5/6 . 5/6 . 1/6` And (probability of 3 failures and a success).
+
+- Mean μ = 1/p
+- Standard deviation σ = √(1/p^2 - 1/p)
+
+### Hypergeometric
+The hypergeometric distribution is denoted as X∼H (r, b, n). Take samples of two groups without replacement (not independent).If r = the size of the group of interest (first group), b= the size of the second group, n= the size of the chosen sample and n≤r+b:
+
+- The mean is:μ= (nr)/(r+b)
+- Standard deviation σ = √(1/p^2 - 1/p)  
+
+### Poisson
+The poisson distribution is denoted as  X ∼ P(μ). The Poisson gives the probability of a number of events occurring in a fixed interval of time or space if these events happen with a known average rate and independently of the time since the last event. The Poisson may be used to approximate the binomial if the probability of success is "small".
+
+- 
