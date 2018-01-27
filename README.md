@@ -5,6 +5,7 @@
 2. [Chapter 2: Descriptive Statistics](#Chapter2)
 3. [Chapter 3: Probability Topics](#Chapter3)
 4. [Chapter 4: Discrete Random Variables](#Chapter4)
+5. [Chapter 5: Continuous Random Variables](#Chapter5)
 
 ## Chapter 1: Sampling and Data<a name="Chapter1"></a>
 Organizing and summarizing data is called descriptive statistics. Data can be classified in 4 different levels:
@@ -86,10 +87,19 @@ The geometric distribution is denoted as X ∼ G (p). The trials are repeated un
 ### Hypergeometric
 The hypergeometric distribution is denoted as X∼H (r, b, n). Take samples of two groups without replacement (not independent).If r = the size of the group of interest (first group), b= the size of the second group, n= the size of the chosen sample and n≤r+b:
 
-- The mean is:μ= (nr)/(r+b)
+- The mean μ= (nr)/(r+b)
 - Standard deviation σ = √(1/p^2 - 1/p)  
 
 ### Poisson
 The poisson distribution is denoted as  X ∼ P(μ). The Poisson gives the probability of a number of events occurring in a fixed interval of time or space if these events happen with a known average rate and independently of the time since the last event. The Poisson may be used to approximate the binomial if the probability of success is "small".
 
-- 
+-  μ is also denoted with λ
+
+## Chapter 5: Continuous Random Variables<a name="Chapter5"></a>
+The graph of a continuous probability distribution is a curve (called the probability density function). Probability is represented by area under the curve. Area under the curve is given by a different function called the cumulative distribution function. For continuous probability distributions, PROBABILITY = AREA. P (X ≤ x) (can be written as P (X < x) for continuous distributions) is called the cumulative distribution function or CDF.
+
+### Uniform distribution
+The notation for the uniform distribution is X ∼ U (a,b) where a = the lowest value of x and b = the highest value of x.. The graph of an uniform distribution is an horizontal line. The probability density function is f (x) = 1/(b-a) for a ≤ x ≤ b.
+
+- The mean is:μ= (b+a)/2
+- The standard deviation σ = √((b-a)^2/12)
